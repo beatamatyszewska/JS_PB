@@ -6,7 +6,7 @@ function josephus(soldiersNumber) {
   }
   do {
     for (let i = 0; i < soldiers.length; i++) {
-      let = soldierToKill = i + 1;
+      let soldierToKill = i + 1;
       if (soldierToKill === soldiers.length) {
         soldierToKill = 0;
       }
