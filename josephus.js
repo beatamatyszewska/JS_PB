@@ -2,11 +2,11 @@
 function josephus(soldiersNumber) {
   let soldiers = [];
   for (let i = 1; i < (soldiersNumber + 1); i++) {
-    soldiers.push(i)
+    soldiers.push(i);
   }
   do {
     for (let i = 0; i < soldiers.length; i++) {
-      soldierToKill = i + 1;
+      let = soldierToKill = i + 1;
       if ((soldierToKill) === soldiers.length) {
         soldierToKill = 0;
       }
